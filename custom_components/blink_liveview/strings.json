@@ -1,0 +1,14 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Blink Live View",
+        "description": "Adds a live-streaming camera entity for every camera in your Blink integration. The core Blink integration must already be set up."
+      }
+    },
+    "abort": {
+      "no_blink": "Set up the core Blink integration first, then add Blink Live View.",
+      "single_instance_allowed": "Blink Live View is already configured."
+    }
+  }
+}

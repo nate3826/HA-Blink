@@ -1,0 +1,15 @@
+{
+  "domain": "blink_liveview",
+  "name": "Blink Live View",
+  "codeowners": ["@nate3826"],
+  "config_flow": true,
+  "dependencies": ["blink", "stream"],
+  "documentation": "https://github.com/nate3826/HA-Blink",
+  "integration_type": "service",
+  "iot_class": "cloud_push",
+  "issue_tracker": "https://github.com/nate3826/HA-Blink/issues",
+  "loggers": ["blinkpy.livestream"],
+  "requirements": [],
+  "single_config_entry": true,
+  "version": "1.0.0"
+}
